@@ -70,7 +70,7 @@ background(back_img)
             index = index + 1;
             x = 500 - allPlayers[plr].distance;
        
-console.log(  players[index - 1].x)
+console.log(  players[index - 1].y)
             players[index - 1].x = x;
             players[index - 1].y = y;
    
