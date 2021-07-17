@@ -61,7 +61,7 @@ background(back_img)
         Player.getPlayerInfo();
             
         var x = 100;
-        var y = 100;
+        var y = 20;
         var index = 0;
      
         for (var plr in allPlayers) {
