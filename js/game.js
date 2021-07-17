@@ -86,15 +86,6 @@ console.log(  players[index - 1].y)
 
 
 
-        if (keyIsDown(RIGHT_ARROW) && player.index !== null) {
-            player.distance -= 10
-            player.update();
-            
-        }
-        if (keyIsDown(LEFT_ARROW) && player.index !== null) {
-            player.distance += 10
-            player.update();
-        }
 
         if (frameCount % 20 === 0) {
             fruits = createSprite(random(100, 1000), 0, 100, 100);
