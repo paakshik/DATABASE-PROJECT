@@ -18,14 +18,8 @@ class Player {
             playerCount: count
         });
     }
-   update(){
-database.ref('players').on('value',(data) => {  
-         
-                        stroke('yellow')
-                        fill('yellow')
-                        text(`Score : Player 2: ${data.val().score}`,200,300)
-                                })  
-}
+                    })  
+
    
 
     static getPlayerInfo() {
