@@ -66,7 +66,7 @@ background(back_img)
      
         for (var plr in allPlayers) {
 
-            C:\Users\W47940\DownloadsCProject-c-40-template-main\js\game.js
+           
             index = index + 1;
             x = 500 - allPlayers[plr].distance;
        
