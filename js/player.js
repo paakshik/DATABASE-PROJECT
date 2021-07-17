@@ -19,14 +19,7 @@ class Player {
         });
     }
 
-    update() {
-        var playerIndex = "players/player" + this.index;
-        database.ref(playerIndex).set({
-            name: this.name,
-            distance: this.distance,
-            score:this.score
-        });
-    }
+   
 
     static getPlayerInfo() {
         var playerInfoRef = database.ref('players');
