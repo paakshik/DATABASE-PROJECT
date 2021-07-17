@@ -50,7 +50,7 @@ background(back_img)
             fill('yellow')
          }
            
-       )}                        
+      })                        
                      
         Player.getPlayerInfo();
             
