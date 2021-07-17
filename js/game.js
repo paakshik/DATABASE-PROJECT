@@ -50,8 +50,7 @@ background(back_img)
             fill('yellow')
          }
            
-            text(`Score : Player 1: ${data.val().score}`,200,200)
-                    })   
+                               })   
                      
         Player.getPlayerInfo();
             
