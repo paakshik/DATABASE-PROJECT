@@ -126,6 +126,7 @@ score++;
         }
     
     }
+}
     end() {
         console.log("Game Ended");
     }
