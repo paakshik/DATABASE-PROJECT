@@ -18,7 +18,7 @@ class Player {
             playerCount: count
         });
     }
-update(){
+   update(){
 database.ref('players').on('value',(data) => {  
          
                         stroke('yellow')
