@@ -26,10 +26,10 @@ class Game {
             form = new Form()
             form.display();
         }
-        player1 = createSprite(200, 500);
+        player1 = createSprite(200, 100);
         player1.addImage("player1", player_img);
 
-        player2 = createSprite(800, 500);
+        player2 = createSprite(800, 100);
         player2.addImage("player2", player_img);
         players = [player1, player2];
 
