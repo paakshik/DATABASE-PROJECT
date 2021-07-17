@@ -37,7 +37,7 @@ class Form{
             player.name = this.input.value();
             playerCount += 1;
             player.index = playerCount;
-            player.update();
+          
             player.updateCount(playerCount);
             this.greeting.html("Hello " + player.name)
             this.greeting.position(400,250);
