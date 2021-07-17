@@ -52,12 +52,7 @@ background(back_img)
            
             text(`Score : Player 1: ${data.val().score}`,200,200)
                     })   
-                    database.ref('player2').on('value',(data) => {  
-         
-                        stroke('yellow')
-                        fill('yellow')
-                        text(`Score : Player 2: ${data.val().score}`,200,300)
-                                })   
+                     
         Player.getPlayerInfo();
             
         var x = 100;
